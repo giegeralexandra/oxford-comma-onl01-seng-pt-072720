@@ -6,10 +6,7 @@ def oxford_comma(array)
     else 
       last_value = array[-1]
       array.pop
-      second_last = array[-1]
-      array.pop
-      combined = "#{second_last}, and #{last_value}"
-      array << "#{combined}"
+      array << "and #{last_value}"
       return array.join ", "
   end
 end
