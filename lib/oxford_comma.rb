@@ -11,5 +11,5 @@ def oxford_comma(array)
       combined = "#{second_last} and #{last_value}"
       array << "#{combined}"
       return array.join ", "
-    end
+  end
 end
