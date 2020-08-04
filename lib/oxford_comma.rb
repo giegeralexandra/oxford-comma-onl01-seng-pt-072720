@@ -7,5 +7,4 @@ def oxford_comma(array)
     else 
      new_string = (array.join(", ")) + ", and ${last_value}"
   end
-  return new_string
 end
