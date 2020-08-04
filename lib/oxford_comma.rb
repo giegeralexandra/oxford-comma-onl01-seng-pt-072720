@@ -1,5 +1,5 @@
 def oxford_comma(array)
   length = array.length
-  new_value = (array.join(", ")).pop
-  return new_value
+  new_value = (array.join(", "))
+  return new_value.pop
 end
