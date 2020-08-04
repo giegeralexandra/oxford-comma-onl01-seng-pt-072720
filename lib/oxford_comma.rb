@@ -5,6 +5,7 @@ def oxford_comma(array)
   if array[-1] <1
     puts array
     else 
-     new_string = (array.join(", ")) + ", and ${last_value}"
+    new_string = (array.join(", ")) + ", and ${last_value}"
+    puts new_string
   end
 end
