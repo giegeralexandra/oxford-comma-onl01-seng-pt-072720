@@ -2,10 +2,10 @@ def oxford_comma(array)
   last_index = array[-1]
   last_value = array[last_index]
   array.pop
-  if array[-1] <1
+  if array[-1] < 1
     puts array
     else 
-    new_string = (array.join(", ")) + ", and ${last_value}"
-    puts new_string
+      new_string = (array.join(", ")) + ", and #{last_value}"
+      puts new_string
   end
 end
